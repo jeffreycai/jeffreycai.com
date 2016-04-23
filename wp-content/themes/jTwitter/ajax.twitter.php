@@ -4,6 +4,8 @@ header("Cache-Control: no-cache");
 header("Expires: -1"); 
 
 try {
+  echo "Twitter changes API again... Haven't got time to refine the widget. To be continued.";
+/**
     include(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'includes' . DIRECTORY_SEPARATOR . 'classes' . DIRECTORY_SEPARATOR . 'Twitter.class.php');
     $twitter = new Twitter('38430808');
 
@@ -11,6 +13,7 @@ try {
     {
         echo "<li>".Twitter::parseTweet($item)."<span class='timestamp'>posted at <a href={$item->link} target=_blank rel='nofollow'>".date('jS M Y', strtotime($item->pubDate))."</a></span><li>";
     }
+**/
 } catch (Exception $e)
 {
     global $twitter_error;
