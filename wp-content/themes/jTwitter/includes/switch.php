@@ -1,0 +1,1 @@
+<a href="#"  class="switch <?php if (has_flag_on('switch')): ?>on<?php endif ?>">Quick View <span><?php if (has_flag_on('switch')): ?>On<?php else: ?>Off<?php endif ?></span></a>
